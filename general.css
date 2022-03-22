@@ -3,3 +3,101 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
+.p-fixed {
+  position: fixed;
+}
+
+/* MAIN */
+main {
+  justify-content: flex-start;
+}
+
+/* ASIDE 
+nb. Lascia altezza fissa al LOGO la quale deve essere pari all'altezza che avrà la Call-To- Action*/
+aside {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 15vw;
+}
+
+#logo, #install-container {
+  height: 8vh;
+  width: 100%;
+  padding: 0 5px;
+}
+
+#install-app {
+  height: calc(100% - 70%);
+}
+
+#j-doe {
+  width: 100%;
+  height: calc(70%);
+}
+
+/* CALL-TO- ACTION, NAV */
+#call-to-action,
+nav,
+#preferences {
+  width: calc(100vw - 15vw);
+}
+
+#call-to-action {
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+input {
+  margin-right: 5px;
+  padding: 8px 20px;
+}
+
+ /* NAV */
+nav {
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 8vh;
+  right: 0;
+}
+
+ul li {
+  display: inline-block;
+  list-style: none;
+  font-size: 12px;
+  margin: 0 5px 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* PREFERENCES */
+#preferences {
+  margin-top: 8vh;
+  overflow: scroll;
+}
+
+/* PLAY BAR */
+#play-bar {
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+}
+
+
+

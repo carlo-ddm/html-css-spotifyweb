@@ -1,0 +1,36 @@
+.debug {
+  background-color: blanchedalmond;
+  border: 1px solid black;
+}
+/* Altezza ASIDE */
+.h90 {
+  height: 90vh;
+}
+
+#menu {
+  height: 100px;
+}
+
+#playlist {
+  height: 300px;
+}
+
+/* Altezza CALL-TO-ACTION */
+#call-to-action {
+  height: 8vh;
+}
+
+/* Altezza NAV */
+nav {
+  height: 4vh;
+}
+
+/* Altezza PREFERENCES */
+#preferences {
+  height: calc(100vh - 8vh - 10vh);
+}
+
+/* Altezza PLAY BAR */
+#play-bar {
+  height: 10vh;
+}
