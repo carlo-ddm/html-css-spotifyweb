@@ -41,7 +41,7 @@ aside {
   padding: 15px 0;
   text-align: left;
 }
-#logo, #install-container {
+#logo {
   height: 8vh;
   width: 100%;
 }
@@ -69,6 +69,11 @@ aside {
 }
 
 /* CONTAINER ASIDE */
+#install-container {
+  height: 10vh;
+  width: 100%;
+}
+
 #install-app {
   height: calc(100% - 70%);
 }
@@ -76,6 +81,10 @@ aside {
 #j-doe {
   width: 100%;
   height: calc(70%);
+}
+
+#j-doe span {
+  display: inline-block;
 }
 
 /* CALL-TO- ACTION, NAV */

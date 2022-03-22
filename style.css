@@ -39,7 +39,7 @@ aside {
   line-height: 30px;
 }
 
-/* INSTAALLA APP */
+/* INSTALLA APP */
 #install-app {
   background-color: black;
   border-bottom: 1px solid #7d8186
@@ -48,7 +48,12 @@ aside {
 #install-app span {
   color: #7d8186;
   font-size: 12px;
-  ;
+}
+
+#j-doe span {
+  font-size: 30px;
+  border: 1px solid black;
+  border-radius: 100px;
 }
 
 /* OTHERS */
