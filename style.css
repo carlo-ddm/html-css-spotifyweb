@@ -6,6 +6,7 @@
 /* ASIDE */
 aside {
   background-color: black;
+  font-size: 15px;
 }
 
 #menu ul,
@@ -14,9 +15,19 @@ aside {
   background-color: black;
 }
 
+/* MENU --> CHILDREN */
 #menu ul li:first-child {
   color: white;
   font-size: 15px;
+}
+
+#menu ul li:first-child span:first-child,
+#menu ul li:nth-child(2) span:first-child,
+#menu ul li:nth-child(3) span:first-child,
+#install-app span {
+  display: inline-block;
+  width: 20px;
+  vertical-align: middle;
 }
 
 #playlist ul li:first-child {
@@ -45,15 +56,24 @@ aside {
   border-bottom: 1px solid #7d8186
 }
 
-#install-app span {
+#install-app {
   color: #7d8186;
   font-size: 12px;
 }
 
+/* PROFILE */
+#j-doe {
+  background-color: black;
+}
+
 #j-doe span {
+  background-color: gray;
   font-size: 30px;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 100px;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
 }
 
 /* OTHERS */
@@ -69,7 +89,6 @@ nav ul li {
 nav ul li a {
   color: #7d8186;
 }
-
 
 input {
   background-color: black;
