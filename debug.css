@@ -2,6 +2,12 @@
   background-color: blanchedalmond;
   border: 1px solid black;
 }
+
+/* NO BORDER */
+.no-border {
+  border: 0;
+}
+
 /* Altezza ASIDE */
 .h90 {
   height: 90vh;

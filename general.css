@@ -16,6 +16,11 @@
   position: fixed;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 /* MAIN */
 main {
   justify-content: flex-start;
@@ -35,6 +40,21 @@ aside {
   padding: 0 5px;
 }
 
+/* ASIDE --> MENU */
+#menu ul {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* ASIDE --> PLAY-LIST */
+#playlist ul {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* CONTAINER ASIDE */
 #install-app {
   height: calc(100% - 70%);
 }
@@ -86,7 +106,7 @@ a {
 
 /* PREFERENCES */
 #preferences {
-  margin-top: 8vh;
+  padding-top: 8vh;
   overflow: scroll;
 }
 
