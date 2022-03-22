@@ -19,6 +19,26 @@ aside {
   font-size: 15px;
 }
 
+#playlist ul li:first-child {
+  color: white;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+/* PLAYLIST */
+#playlist ul li:nth-child(2) span:first-child {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1px;
+  font-size: 40px;
+}
+
+#playlist ul li:nth-child(2) span:nth-child(2) {
+  font-size: 16px;
+  line-height: 30px;
+}
+
 
 /* OTHERS */
 .container-nav-preferences {

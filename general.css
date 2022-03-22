@@ -44,14 +44,22 @@ aside {
 #menu ul {
   height: 100%;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+#menu ul li {
+  margin: 0 0 12px;
 }
 
 /* ASIDE --> PLAY-LIST */
 #playlist ul {
   height: 100%;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
+}
+
+#playlist ul li {
+  margin: 0 0 12px;
 }
 
 /* CONTAINER ASIDE */
@@ -97,7 +105,7 @@ ul li {
   display: inline-block;
   list-style: none;
   font-size: 12px;
-  margin: 0 5px 0;
+  margin: 0 10px;
 }
 
 a {
