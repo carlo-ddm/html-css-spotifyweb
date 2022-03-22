@@ -68,7 +68,7 @@ aside {
 #call-to-action,
 nav,
 #preferences {
-  width: calc(100vw - 15vw);
+  width: calc(100vw - 200px);
 }
 
 #call-to-action {
