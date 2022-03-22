@@ -3,18 +3,26 @@
   background-color: black;
 }
 
+/* ASIDE */
 aside {
   background-color: black;
 }
 
-.container-nav-preferences {
-  background-color: #10131A;
-}
-
 #menu ul,
 #playlist ul {
-  color: white;
+  color: #7d8186;
   background-color: black;
+}
+
+#menu ul li:first-child {
+  color: white;
+  font-size: 15px;
+}
+
+
+/* OTHERS */
+.container-nav-preferences {
+  background-color: #10131A;
 }
 
 input,

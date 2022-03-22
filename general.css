@@ -31,13 +31,13 @@ nb. Lascia altezza fissa al LOGO la quale deve essere pari all'altezza che avrà
 aside {
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 10px;
   width: 200px;
 }
 
 #logo, #install-container {
   height: 8vh;
   width: 100%;
-  padding: 0 5px;
 }
 
 /* ASIDE --> MENU */
