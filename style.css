@@ -23,10 +23,14 @@ aside {
 
 #menu ul li:first-child span:first-child,
 #menu ul li:nth-child(2) span:first-child,
-#menu ul li:nth-child(3) span:first-child,
-#install-app span {
+#menu ul li:nth-child(3) span:first-child {
   display: inline-block;
   width: 20px;
+  vertical-align: middle;
+}
+
+#install-app span {
+  display: inline-block;
   vertical-align: middle;
 }
 

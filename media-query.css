@@ -1,7 +1,41 @@
 @media screen and (max-width: 419px) {
+  aside {
+    width: 50px;
+    padding: 0 2px;
+  }
+
+  #logo,
+  #menu,
+  #playlist,
+  #install-container {
+    text-align: center;
+    padding: 0;
+  }
+
   #menu ul li span:nth-child(2),
-  #playlist ul li {
+  #playlist ul li,
+  #install-app span:nth-child(2),
+  #j-doe span:nth-child(2) {
     display: none;
+  }
+
+  #install-app {
+    border: none;
+  }
+
+  #j-doe {
+    justify-content: center;
+  }
+
+  #j-doe span:first-child {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+  }
+
+  #call-to-action,
+  #preferences {
+    width: calc(100vw - 50px);
   }
 
 }

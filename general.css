@@ -35,8 +35,13 @@ nb. Lascia altezza fissa al LOGO la quale deve essere pari all'altezza che avrà
 aside {
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 10px;
   width: 200px;
+}
+
+#menu,
+#playlist,
+#install-container {
+  padding: 0 16px;
 }
 
 /* LOGO */
