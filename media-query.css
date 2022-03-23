@@ -1,0 +1,7 @@
+@media screen and (max-width: 419px) {
+  #menu ul li span:nth-child(2),
+  #playlist ul li {
+    display: none;
+  }
+
+}
