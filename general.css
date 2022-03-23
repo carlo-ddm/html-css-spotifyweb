@@ -150,18 +150,24 @@ a {
   bottom: 0;
   left: 0;
   width: 100vw;
-  background-color: #2A2A2A;
 }
 
-#play-bar #left,
-#play-bar #right {
+#play-bar #left {
   width: 200px;
-  justify-content: space-around;
+  padding: 0 16px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#play-bar #right {
+  width: 15%;
+  padding: 0 16px;
+  justify-content: flex-end;
   align-items: center;
 }
 
 #play-bar #central {
-  width: 300px;
+  width: 50%;
   flex-direction: column;
   justify-content: center;
 }

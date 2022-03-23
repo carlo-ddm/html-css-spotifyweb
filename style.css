@@ -87,7 +87,7 @@ aside {
   color: white;
 }
 
-/* OTHERS */
+/* NAV, PREFERENCES */
 .container-nav-preferences {
   background-color: #10131A;
 }
@@ -117,3 +117,50 @@ nav ul li a:hover {
   color: white;
   cursor: pointer;
 }
+
+/* PLAY BAR */
+#play-bar {
+  background-color: #2A2A2A;
+}
+
+/* Left */
+#left {
+  background-color: #2A2A2A;
+}
+
+#left #img-cont {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+
+#left img {
+  width: 100%;
+}
+
+#brano-nome {
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+#brano-nome span:first-child {
+  font-weight: bold;
+  font-size: 10px;
+  color: white;
+}
+
+#brano-nome span:nth-child(2) {
+  font-weight: bold;
+  font-size: 10px;
+  color: #7d8186;
+}
+
+#icons-container {
+  flex-direction: column;
+}
+
+#icons-container div:first-child,
+#icons-container div:nth-child(2) {
+  color: #7d8186;
+}
+
