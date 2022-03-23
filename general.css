@@ -123,13 +123,14 @@ nav {
   position: fixed;
   top: 8vh;
   right: 0;
+  text-align: center;
 }
 
 ul li {
   display: inline-block;
   list-style: none;
   font-size: 12px;
-  margin: 0 10px;
+  margin: 0 10px 20px 10px;
 }
 
 a {
@@ -139,7 +140,6 @@ a {
 /* PREFERENCES */
 #preferences {
   width: calc(100vw - 200px);
-  padding-top: 8vh;
   overflow: scroll;
 }
 
