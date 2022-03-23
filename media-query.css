@@ -1,4 +1,6 @@
 @media screen and (max-width: 419px) {
+
+  /* ASIDE */
   aside {
     width: 50px;
     padding: 0 2px;
@@ -33,9 +35,19 @@
     margin: 0;
   }
 
+  /* CALL */
   #call-to-action,
+  nav,
   #preferences {
     width: calc(100vw - 50px);
+  }
+
+  nav {
+    text-align: center;
+  }
+  nav ul li {
+    justify-content: center;
+    font-size: 10px;
   }
 
 }
