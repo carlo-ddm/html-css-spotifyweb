@@ -29,9 +29,11 @@ aside {
   vertical-align: middle;
 }
 
-#install-app span {
+#install-app span:first-child {
   display: inline-block;
   vertical-align: middle;
+  width: 15px;
+  color: #7d8186;
 }
 
 
