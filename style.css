@@ -30,6 +30,7 @@ aside {
   vertical-align: middle;
 }
 
+
 #playlist ul li:first-child {
   color: white;
   font-size: 15px;
@@ -66,14 +67,20 @@ aside {
   background-color: black;
 }
 
-#j-doe span {
+#j-doe span:first-child {
   background-color: gray;
   font-size: 30px;
   border: 1px solid white;
   border-radius: 100px;
-  width: 45px;
-  height: 45px;
+  width: 30px;
+  height: 30px;
   overflow: hidden;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#j-doe span:nth-child(2) {
+  color: white;
 }
 
 /* OTHERS */
