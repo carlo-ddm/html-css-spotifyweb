@@ -153,5 +153,23 @@ a {
   background-color: #2A2A2A;
 }
 
+#play-bar #left,
+#play-bar #right {
+  width: 200px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#play-bar #central {
+  width: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#play-bar #central #top,
+#play-bar #central #bottom {
+  justify-content: space-around;
+}
+
 
 
