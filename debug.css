@@ -65,9 +65,20 @@
 
 .album div:nth-child(3) {
   font-size: 10px;
-  color: gray;
+  color: #7d8186;
 }
 
 #container-section-album {
   flex-direction: column;
+}
+
+#container-section-album:nth-child(3) h3,
+#container-section-album:nth-child(4) h3 {
+  margin-bottom: 10px;
+}
+
+#container-section-album:nth-child(3) h4,
+#container-section-album:nth-child(4) h4 {
+  margin-bottom: 30px;
+  color: #7d8186;
 }
