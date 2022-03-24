@@ -120,10 +120,9 @@ input {
 nav {
   justify-content: center;
   align-items: center;
-  position: fixed;
-  top: 8vh;
-  right: 0;
   text-align: center;
+  margin-top: 75px;
+  height: 90px;
 }
 
 ul li {

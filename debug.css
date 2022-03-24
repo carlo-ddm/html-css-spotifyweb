@@ -24,12 +24,7 @@
 
 /* Altezza CALL-TO-ACTION */
 #call-to-action {
-  height: 8vh;
-}
-
-/* Altezza NAV */
-nav {
-  height: 4vh;
+  height: 80px;
 }
 
 /* Altezza PREFERENCES */
