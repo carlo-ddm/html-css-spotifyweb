@@ -6,6 +6,15 @@
     padding: 0 2px;
   }
 
+  #logo-1 {
+    display: none;
+  }
+
+  #logo-2 {
+    display: inline-block;
+    text-align: center;
+  }
+
   #logo,
   #menu,
   #playlist,

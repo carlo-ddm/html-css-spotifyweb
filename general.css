@@ -52,6 +52,10 @@ aside {
   text-align: left;
 }
 
+#logo-2 {
+  display: none;
+}
+
 /* ASIDE --> MENU */
 aside {
   height: 90vh;
