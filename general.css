@@ -129,7 +129,8 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 100px;
+  margin-bottom: 20px;
   height: 75px;
 }
 
@@ -151,7 +152,7 @@ a {
 }
 
 #container-section-album {
-  padding: 0 15px;
+  padding: 0px 15px 0;
 }
 
 /* PLAY BAR */
