@@ -17,8 +17,14 @@ aside {
 
 /* MENU --> CHILDREN */
 #menu ul li:first-child {
+  padding-left: 15px;
   color: white;
   font-size: 15px;
+}
+
+#menu ul li:nth-child(2),
+#menu ul li:nth-child(3) {
+  padding-left: 16px;
 }
 
 #menu ul li:first-child span:first-child,

@@ -38,7 +38,6 @@ aside {
   width: 200px;
 }
 
-#menu,
 #playlist,
 #install-container {
   padding: 0 16px;
@@ -70,6 +69,10 @@ aside {
 
 #menu ul li {
   margin: 0 0 12px;
+}
+
+#menu ul li:first-child {
+  border-left: 2px solid green;
 }
 
 /* ASIDE --> PLAY-LIST */
@@ -120,7 +123,7 @@ nav,
 }
 
 input {
-  margin-right: 1px;
+  margin-right: 10px;
   padding: 8px 20px;
 }
 
