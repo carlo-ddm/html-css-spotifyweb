@@ -33,15 +33,22 @@
 }
 
 #container-album {
-  justify-content: space-between;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   color: white;
 }
 
 .album {
   width: 200px;
   height: 200px;
+  margin: 0 20px 10px 0;
+  flex-shrink: 0;
 }
 
 .album img {
   width: 100%;
+}
+
+#container-section-album {
+  flex-direction: column;
 }
