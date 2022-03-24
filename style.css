@@ -44,6 +44,12 @@ aside {
   margin: 0;
 }
 
+/* PREFERENCES */
+#preferences {
+  background-color: #10131A;
+  height: 100vh;
+}
+
 /* PLAYLIST */
 #playlist ul li:nth-child(2) span:first-child {
   display: inline-block;
