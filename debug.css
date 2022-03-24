@@ -33,6 +33,7 @@
 
 #container-section-album h3 {
   color: white;
+  font-weight: bol;
   margin: 0 40px 50px 40px;
 }
 
@@ -44,9 +45,8 @@
 }
 
 .album {
-  width: 200px;
-  height: 200px;
-  margin: 0 40px 50px 40px;
+  width: calc(100% / 6);
+  margin: 0 10px 100px 10px;
   flex-shrink: 0;
   text-align: center;
 }
@@ -57,7 +57,7 @@
 
 .album div {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 #container-section-album {
