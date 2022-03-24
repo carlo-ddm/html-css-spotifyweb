@@ -1,13 +1,3 @@
-.debug {
-  background-color: blanchedalmond;
-  border: 1px solid black;
-}
-
-/* NO BORDER */
-.no-border {
-  border: 0;
-}
-
 #menu {
   height: 100px;
   margin-bottom: 15px;
