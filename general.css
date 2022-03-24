@@ -120,7 +120,7 @@ nav,
 }
 
 input {
-  margin-right: 15px;
+  margin-right: 1px;
   padding: 8px 20px;
 }
 
@@ -152,7 +152,7 @@ a {
 }
 
 #container-section-album {
-  padding: 0px 15px 0;
+  padding: 0px 50px 0;
 }
 
 /* PLAY BAR */
