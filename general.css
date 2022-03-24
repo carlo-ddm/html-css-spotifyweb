@@ -149,6 +149,10 @@ a {
   overflow: auto;
 }
 
+#container-section-album {
+  padding: 0 15px;
+}
+
 /* PLAY BAR */
 #play-bar {
   justify-content: space-between;

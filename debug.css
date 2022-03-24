@@ -21,3 +21,27 @@
 #play-bar {
   height: 10vh;
 }
+
+.debug {
+  border: 1px solid white;
+}
+
+/* Container album */
+#container-section-album h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+#container-album {
+  justify-content: space-between;
+  color: white;
+}
+
+.album {
+  width: 200px;
+  height: 200px;
+}
+
+.album img {
+  width: 100%;
+}
