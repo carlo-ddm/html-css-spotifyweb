@@ -45,7 +45,6 @@ aside {
 }
 
 /* LOGO */
-
 #logo {
   padding: 15px 0;
   width: 100%;
@@ -54,6 +53,10 @@ aside {
 }
 
 /* ASIDE --> MENU */
+aside {
+  height: 90vh;
+}
+
 #menu ul {
   height: 100%;
   flex-direction: column;
@@ -122,7 +125,7 @@ nav {
   align-items: center;
   text-align: center;
   margin-top: 75px;
-  height: 90px;
+  height: 75px;
 }
 
 ul li {
@@ -138,8 +141,7 @@ a {
 
 /* PREFERENCES */
 #preferences {
-  width: calc(100vw - 200px);
-  overflow: scroll;
+  overflow: auto;
 }
 
 /* PLAY BAR */

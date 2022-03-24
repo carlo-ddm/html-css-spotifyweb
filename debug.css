@@ -8,11 +8,6 @@
   border: 0;
 }
 
-/* Altezza ASIDE */
-.h90 {
-  height: 90vh;
-}
-
 #menu {
   height: 100px;
   margin-bottom: 15px;
@@ -29,7 +24,7 @@
 
 /* Altezza PREFERENCES */
 #preferences {
-  height: calc(100vh - 8vh - 10vh);
+  height: 100%;
 }
 
 /* Altezza PLAY BAR */
