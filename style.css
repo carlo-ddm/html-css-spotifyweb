@@ -18,13 +18,14 @@ aside {
 /* MENU --> CHILDREN */
 #menu ul li:first-child {
   padding-left: 15px;
+  padding-right: 16px;
   color: white;
   font-size: 15px;
 }
 
 #menu ul li:nth-child(2),
 #menu ul li:nth-child(3) {
-  padding-left: 16px;
+  padding: 0 16px;
 }
 
 #menu ul li:first-child span:first-child,
@@ -113,6 +114,14 @@ nav ul li {
 
 nav ul li a {
   color: #7d8186;
+}
+
+nav ul li a:first-child {
+  display: block;
+}
+
+nav ul li a:nth-child(2) {
+  border: 1px solid green;
 }
 
 input {

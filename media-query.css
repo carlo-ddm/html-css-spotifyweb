@@ -1,7 +1,7 @@
-@media screen and (max-width: 419px) {
+@media screen and (max-width: 580px) {
   /* ASIDE */
   aside {
-    width: 50px;
+    width: 55px;
     padding: 0 2px;
   }
 
